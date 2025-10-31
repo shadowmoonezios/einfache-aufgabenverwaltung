@@ -1,0 +1,22 @@
+{
+  "name": "einfache-aufgabenverwaltung",
+  "version": "1.0.0",
+  "description": "Einfache Aufgabenverwaltung für die Verwaltung von Aufgaben.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently --kill-others-on-fail "npm:start" "npm:client""
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  },
+  "license": "MIT"
+}
