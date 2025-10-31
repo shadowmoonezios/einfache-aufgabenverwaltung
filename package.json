@@ -1,6 +1,6 @@
 {
   "name": "einfache-aufgabenverwaltung",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Einfache Aufgabenverwaltung zur Verwaltung von Aufgaben und Projekten.",
   "main": "index.js",
   "scripts": {
