@@ -1,7 +1,7 @@
 {
   "name": "einfache-aufgabenverwaltung",
   "version": "1.0.2",
-  "description": "Einfache Aufgabenverwaltung für die Verwaltung von Aufgaben.",
+  "description": "Einfache Aufgabenverwaltung zur Verwaltung von Aufgaben und Projekten.",
   "main": "index.js",
   "scripts": {
     "start": "node server/index.js",
